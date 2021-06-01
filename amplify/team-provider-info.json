@@ -15,6 +15,12 @@
     "categories": {
       "auth": {
         "investmenttracker": {}
+      },
+      "storage": {
+        "investmenttracker9f9744c2": {
+          "bucketName": "amplify-investmenttracker-staging-225831-deployment",
+          "region": "us-east-2"
+        }
       }
     }
   }
