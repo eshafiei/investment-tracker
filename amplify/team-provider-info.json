@@ -10,6 +10,21 @@
       "StackName": "amplify-investmenttracker-dev-140746",
       "StackId": "arn:aws:cloudformation:us-east-1:114359309507:stack/amplify-investmenttracker-dev-140746/705c6ef0-c3cd-11eb-b9b6-0a23b021aa67",
       "AmplifyAppId": "d30nkttw6mpz28"
+    },
+    "categories": {
+      "auth": {
+        "investmenttracker3e744177": {}
+      },
+      "function": {
+        "getSectors": {
+          "deploymentBucketName": "amplify-investmenttracker-dev-140746-deployment",
+          "s3Key": "amplify-builds/getSectors-6f69786834476d4f6f4a-build.zip"
+        },
+        "createSector": {
+          "deploymentBucketName": "amplify-investmenttracker-dev-140746-deployment",
+          "s3Key": "amplify-builds/createSector-6574613475677357544d-build.zip"
+        }
+      }
     }
   }
 }

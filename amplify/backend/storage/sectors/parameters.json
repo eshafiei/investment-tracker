@@ -1,0 +1,7 @@
+{
+    "tableName": "sectors",
+    "partitionKeyName": "id",
+    "partitionKeyType": "N",
+    "sortKeyName": "name",
+    "sortKeyType": "S"
+}

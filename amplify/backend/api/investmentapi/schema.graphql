@@ -1,0 +1,16 @@
+enum SectorTypeEnum {
+  TECHNOLOGY
+  RETAIL
+  CRYPTO
+  AIRLINES
+  OIL
+  HEALTHCARE
+}
+
+type Sector @model @auth(rules: [{allow: private}]) {
+  id: ID!
+  name: String!
+  active: Boolean
+  type: SectorTypeEnum
+}
+ 

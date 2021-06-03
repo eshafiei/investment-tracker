@@ -1,0 +1,11 @@
+{
+  "AppSyncApiName": "investmentapi",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthCognitoUserPoolId": {
+    "Fn::GetAtt": [
+      "authinvestmenttracker3e744177",
+      "Outputs.UserPoolId"
+    ]
+  }
+}
